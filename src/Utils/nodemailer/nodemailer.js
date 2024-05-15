@@ -162,7 +162,7 @@ export const sendEmailAdmin = async (options, {sessionUser, product}) => {
     <body>
         <div class="content-container">
             <div class="header">
-                <img src="cid:logo" alt="" class="logo">
+                <img src="https://i.imgur.com/UbzOikg.png" alt="" class="logo">
             </div>
             <div class="main-content">
                 <h2>¡Nueva compra!</h2>
@@ -191,23 +191,20 @@ export const sendEmailAdmin = async (options, {sessionUser, product}) => {
                     </li>
                 </ul>
                 <p>Gracias por tu tiempo.</p>
-                <p style="margin-bottom: 50px;"><i>Atentamente:</i><br>Equipo DK</p>
+                <p style="margin-bottom: 50px;"><i>Atentamente:</i><br>Equipo Arvilla Digital</p>
                 <div>
-                  <a href="https://api.whatsapp.com/send/?phone=573014651579&text&type=phone_number&app_absent=0" class="contA"><img src="cid:wapp" class="imag" /></a>
-                  <a href="https://t.me/+_F-esyo-ZJ9jNjEx" class="contA"><img src="cid:te" class="imag" /></a>
-                  <a href="https://www.facebook.com/dksolucionesoficial" class="contA"><img src="cid:fb" class="imag" /></a>
-                  <a href="https://www.instagram.com/dksolucionesoficial" class="contA"><img src="cid:ig" class="imag" /></a>
+                  <a href="https://api.whatsapp.com/send/?phone=573218101385&text&type=phone_number&app_absent=0" class="contA"><img src="https://i.imgur.com/boO2cnf.png" class="imag" /></a>
                 </div>
             </div>
             <div class="footer">
                 <h4>Soporte</h4>
                 <p>Comunícate con nosotros por los siguientes medios:<br>
                     Web: <a class="afooter" href="https://dksoluciones.online/#/support">https://dksoluciones.online/#/support</a><br>
-                    Whatsapp: <a class="afooter" href="https://wa.me/573162299547">+57 316 229 9547</a><br>
+                    Whatsapp: <a class="afooter" href="https://wa.me/573218101385">+573218101385</a><br>
                 </p>
             </div>
             <div class="copyright">
-                © 2023 Dk Soluciones, todos los derechos reservados.
+                © 2024 Arvilla Digital, todos los derechos reservados.
             </div>
         </div>
     </body>
@@ -219,33 +216,6 @@ export const sendEmailAdmin = async (options, {sessionUser, product}) => {
         to: options.email,
         subject: options.subject,
         html: html,
-        attachments: [
-          {
-            filename: 'facebook.png',
-            path: 'src/public/img/facebook.png',
-            cid: 'fb' //same cid value as in the html img src
-        },
-        {
-            filename: 'instagram.png',
-            path: 'src/public/img/instagram.png',
-            cid: 'ig' //same cid value as in the html img src
-        },
-        {
-            filename: 'icon-whatsapp.png',
-            path: 'src/public/img/icon-whatsapp.png',
-            cid: 'wapp' //same cid value as in the html img src
-        },
-        {
-            filename: 'icon-telegram.png',
-            path: 'src/public/img/icon-telegram.png',
-            cid: 'te' //same cid value as in the html img src
-        },
-        {
-            filename: 'logo.webp',
-            path: 'src/public/img/logo.png',
-            cid: 'logo' //same cid value as in the html img src
-            }
-        ]
     }
 
     
