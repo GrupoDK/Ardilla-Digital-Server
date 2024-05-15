@@ -7,11 +7,8 @@ export function generateUniquedID(prefix) {
 }
 
 export function generateCategoryId(plataforma) {
-
     console.log(plataforma)
-
   const plataformaLowerCase =  plataforma.toLowerCase()
-
     
     const plataformas = {
         primevideo: 1,

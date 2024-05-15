@@ -920,14 +920,6 @@ export const messageLicense = (data) => {
 
 export const messageCourse = (data) => {
 
-    // return `  
-    // <h1>Datos del pedido</h1>
-    // <br>
-    // <h3> ${data.name}</h3>
-    // <p>${data.description}</p>
-    // <p>${data.linkCourse}</p>
-    // `;
-
     return `
     <!DOCTYPE html>
 <html lang="en">
@@ -1055,7 +1047,7 @@ export const messageCourse = (data) => {
 <body>
     <div class="content-container">
         <div class="header">
-            <img src="cid:logo" alt="" class="logo">
+            <img src="https://i.imgur.com/UbzOikg.png" alt="" class="logo">
         </div>
         <div class="main-content">
             <h2>¡Gracias por su compra!</h2>
@@ -1075,12 +1067,9 @@ export const messageCourse = (data) => {
             </li>
             </ul>
             <p>Gracias por tu tiempo.</p>
-            <p style="margin-bottom: 50px;"><i>Atentamente:</i><br>Equipo DK</p>
+            <p style="margin-bottom: 50px;"><i>Atentamente:</i><br>Equipo Arvilla Digital</p>
             <div>
-              <a href="https://api.whatsapp.com/send/?phone=573014651579&text&type=phone_number&app_absent=0" class="contA"><img src="cid:wapp" class="imag" /></a>
-              <a href="https://t.me/+_F-esyo-ZJ9jNjEx" class="contA"><img src="cid:te" class="imag" /></a>
-              <a href="https://www.facebook.com/dksolucionesoficial" class="contA"><img src="cid:fb" class="imag" /></a>
-              <a href="https://www.instagram.com/dksolucionesoficial" class="contA"><img src="cid:ig" class="imag" /></a>
+              <a href="https://api.whatsapp.com/send/?phone=573206539470&text&type=phone_number&app_absent=0" class="contA"><img src="https://i.imgur.com/boO2cnf.png" class="imag" /></a>
             </div>
         </div>
         <div class="footer">
@@ -1091,7 +1080,7 @@ export const messageCourse = (data) => {
             </p>
         </div>
         <div class="copyright">
-            © 2023 Dk Soluciones, todos los derechos reservados.
+            © 2024 Arvilla Digital, todos los derechos reservados.
         </div>
     </div>
 </body>

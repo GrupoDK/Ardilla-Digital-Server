@@ -22,33 +22,6 @@ export const sendEmail = async (options, text) => {
         to: options.email,
         subject: options.subject,
         html: text,
-        attachments: [
-          {
-            filename: 'facebook.png',
-            path: 'src/public/img/facebook.png',
-            cid: 'fb' //same cid value as in the html img src
-        },
-        {
-            filename: 'instagram.png',
-            path: 'src/public/img/instagram.png',
-            cid: 'ig' //same cid value as in the html img src
-        },
-        {
-            filename: 'icon-whatsapp.png',
-            path: 'src/public/img/icon-whatsapp.png',
-            cid: 'wapp' //same cid value as in the html img src
-        },
-        {
-            filename: 'icon-telegram.png',
-            path: 'src/public/img/icon-telegram.png',
-            cid: 'te' //same cid value as in the html img src
-        },
-        {
-            filename: 'logo.webp',
-            path: 'src/public/img/logo.png',
-            cid: 'logo' //same cid value as in the html img src
-            }
-        ]
     }
 
     const transporter = nodemailer.createTransport(config);
